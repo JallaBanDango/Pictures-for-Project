@@ -1,0 +1,163 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title> HTML technical document</title>
+  </head>
+
+  <body>
+    <main id="main-doc">
+
+      <section class="main-section" id="Intro" >
+        <header>Intro</header>
+        <p>HTML (HyperText Markup Language) serves as the backbone of web development, providing the structure and foundation for webpages. This document aims to equip developers, designers, and enthusiasts with a comprehensive understanding of HTML and its practical applications.</p>
+        <p>Created in late 1990 by sir Tim Berners Lee, it has been in use ever since and still plays a crucial role.</p>
+      </section>
+
+      <section class="main-section" id="Hypertext">
+        <header>Hypertext</header>
+        <p>Hypertext refers to a system of linking text that enables users to navigate between different pieces of information on the web or within electronic documents. It allows for interactive browsing by connecting textual elements through hyperlinks, which users can click to access related content, whether within the same document or externally. Essentially, hypertext transforms static text into a dynamic, interconnected web of knowledge.</p>
+        <p>HTML implements hypertext by utilizing hyperlinks, which are created with the tag (short for "anchor"). These hyperlinks allow users to navigate between different pages, sections of the same page, or external resources, enabling dynamic and interactive experiences on the web.</p>
+      </section>
+
+      <section class="main-section" id="Markup_language">
+        <header>Markup language</header>
+        <p>A markup language is a system for annotating a document in a way that is syntactically distinguishable from the text. These annotations, or "markup," provide information about the document’s structure, layout, or formatting. Unlike a programming language, markup languages are primarily used to display and organize content</p>
+        <p>The best benefit of combining hypertext and markup languages is their ability to create dynamic, structured, and interactive webpages. Together, they empower web development by blending organization and functionality.</p>
+      </section>
+
+      <section class="main-section" id="Tags_&_structure">
+        <header>Tags & structure</header>
+        <p>Tags in HTML: HTML uses tags enclosed in angle brackets (< >) to define elements. Tags often come in pairs: an opening tag (e.g., < p >) and a closing tag (e.g., < /p >), though some are self-closing (e.g., < img >).<br>
+        <br>
+        Some examples inclue:
+          <ul class="example-list">
+            <li> P for paragraphs</li>
+            <li> h1 for headers</li>
+            <li> div for containers</li>
+            <li> img for images</li>
+            <li> br for a line break</li>
+          </ul>
+          </p>
+        <p>The structure of an HTML document follows a specific hierarchy, ensuring that content is well-organized and interpretable by web browsers. It is usually started with declarations in the head, followed by the main part of the code in the body section, then typically addresses etc in the footer. This makes it all much easier to read from a devolopers perspective.</p>
+      </section>
+
+      <section class="main-section" id="Further_reading">
+        <header>Further reading</header>
+        <p>All of the information in this document was sourced from Wikipedia.</p>
+        <p>You can read more about HTML by clicking <a href="https://en.wikipedia.org/wiki/HTML">HERE</a></p>
+
+
+        <code></code>
+        <code></code>
+        <code></code>
+        <code></code>
+        <code></code>
+      </section>
+
+      <nav id="navbar">
+        <header>HTML</header>
+        <ul>
+          <li class="nav-list"><a class="nav-link" href="#Intro">Intro</a></li>
+          <li class="nav-list"><a class="nav-link" href="#Hypertext">Hypertext</a></li>
+          <li class="nav-list"><a class="nav-link" href="#Markup_language">Markup language</a></li>
+          <li class="nav-list"><a class="nav-link" href="#Tags_&_structure">Tags & structure</a></li>
+          <li class="nav-list"><a class="nav-link" href="#Further_reading">Further reading</a></li>
+      </nav>
+    </main>
+  </body>
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+.nav-header {
+  text-align: center;
+  text-decoration: none;
+  padding-top: 11px;
+  border-bottom: 2px solid #a9a9a9;
+}
+
+#navbar {
+  display: inline-block;
+   position: fixed;
+  left: 0;        
+  top: 0;         
+  width: 200px;    
+  height: 100vh; 
+  border: 1px solid black; 
+}
+
+.nav-list  {
+  padding: 15px;
+  font-size: 20px;
+  list-style: none;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #a9a9a9;
+  font-size: 26px;
+  text-align: center;
+  padding: 10px;
+}
+
+.nav-list a:hover {
+  color: black;
+}
+
+.example-list {
+  text-align: center;
+  list-style-position: inside;
+  font-size: 20px;
+}
+
+header {
+  font-weight: bold;
+  font-size: 36px;
+  font-family: serif;
+  padding-bottom: 45px;
+  padding-left: 15px;
+  padding-top: 12px;
+}
+
+
+#main-doc {
+  margin-left: 200px;
+  display: inline-block;
+}
+
+p {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px; 
+    line-height: 1.6;
+    padding: 10px;
+  }
+}
+
+** end of undefined **
+

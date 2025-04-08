@@ -1,0 +1,149 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title">Robin Williams</title>
+  </head>
+
+  <body>
+    <header><h1 class="titles">Robin Williams</h1></header>
+    <h2 class="titles">One of the funniest men in comedy<h2>
+    <main id="main">
+      <div id="img-div">
+        <img src="https://ts1.mm.bing.net/th?id=OIP.vWUuyWjp2bAN4HzyUq0jpAAAAA&pid=15.1"id="image" alt="Robin Williams in Good Will Hunting">
+        <div id="img-caption"><p>Robin McLaurin Williams (July 21, 1951 – August 11, 2014)<p>
+          <p>Comedian and actor, beloved by everyone.
+        </div>
+      </div>
+      <div id="tribute-info">
+        <h3 id="timeline-intro">Here is a timeline of Robin's life</h3>
+        <ul id="timeline-list">
+          <li><strong class="bold">1951</strong> - Born in Chicago, Illinois.</li>
+          <li><strong class="bold">1967</strong> - Moves to California.</li>
+          <li><strong class="bold">1973</strong> - Begins stand-up in San Francisco.</li>
+          <li><strong class="bold">1980</strong> - Starred in his first leading film role in Popeye.</li>
+          <li><strong class="bold">1987</strong> - Earned his first Academy Award nomination for Good Morning Vietnam.</li>
+          <li><strong class="bold">1973</strong> - He was granted a full scholarship at Julliard School in New York.</li>
+          <li><strong class="bold">1997</strong> - Won an Academy Award for Best Supporting Actor for Good Will Hunting.</li>
+          <li><strong class="bold">2004</strong> - Was voted 13th in Comedy Central's 100 Greatest Stand-ups Of All Time.</li>
+          <li><strong class="bold">2011</strong> - Williams married his third wife Susan Schneider</li>
+          <li><strong class="bold">2014</strong> - Robin Williams was found  dead aged 63.</li>
+
+      </div>
+      <div id="wiki-link">
+        <p>If you would like to read more, be sure to check the Robin Williams Wikipedia page<a id="tribute-link" href="https://en.wikipedia.org/wiki/Robin_Williams" target="_blank"> HERE</a></p>
+        </div>
+        <div id="quote">
+          <p>"You're only given a little spark of madness. You mustn't lose it."
+            <br>
+            <br>
+            -Robin Williams</p>
+    </main>
+  </body>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  margin: 0 auto;
+  background-color: #F6F7F7;
+  text-align: center;
+}
+
+header {
+  font-size: 26px;
+  font-family: sans-serif;
+  border: 1px solid #DEDEDE;
+  background-color: #DEDEDE;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-top: -15px;
+  padding-bottom: 50px; 
+}
+
+.titles {
+  text-align: center;
+}
+
+#timeline-intro {
+  font-weight: 1000;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+#img-div {
+  display: block;
+  height: 60vh;
+  background-color: #DEDEDE;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #CECECE;
+  border-radius: 9px;
+ 
+  
+}
+
+#image {
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+  width: 78%;
+  max-width:100%;
+  height: auto;
+padding-top:20px;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 12px;
+  font-family: sans-serif;
+  word-spacing: 3px;
+}
+
+#timeline-list {
+  list-style-position: inside;
+  text-align: center;
+}
+
+#timeline-list li {
+  padding: 25px;
+  font-size: 20px;
+  font-weight: 200; 
+}
+
+.bold {
+  font-weight: 800;
+  font-family: Helvetica;
+  font-size: 25px;
+}
+
+#quote {
+  font-style: italic;
+  text-align: center;
+  padding-top: 75px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+#wiki-link {
+  font-size: 18px;
+  padding: 15px;
+}
+
+a:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+** end of undefined **
+

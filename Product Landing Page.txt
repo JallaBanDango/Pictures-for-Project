@@ -1,0 +1,330 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jack's Sticks & Bits</title> 
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <nav id="nav-bar">
+        <div id="navbar-left">
+          <img id="header-img" src="https://tse3.mm.bing.net/th?id=OIG2.3GfoDR29FKj_4Bu5tWxv&pid=ImgGn" alt="logo image"></image>
+          <h1 id="logo-text">Jack's Sticks & bits</h1>
+        </div>
+        <div id="navbar-right">
+          <a class="nav-link" href="#Features">Features</a>
+          <a class="nav-link" href="#Examples">Examples</a>
+          <a class="nav-link" href="#Prices">Prices</a>
+        </div>
+      </nav>
+    </header>
+
+    <div id="Features">
+      <img class="p-with-icon-img1" src="https://static.vecteezy.com/system/resources/previews/020/321/101/original/locally-sourced-icon-vector.jpg" alt="icon for locally sourced"></image>
+      <h1 class="titles">Locally Sourced</h1>
+      <p class="p-with-icon">All the materials used in our products are locally and fairly sourced, the fact that they are some of the best materials in the world is just a <em>happy</em> coincidence!</p>
+        <img class="p-with-icon-img2" src="https://th.bing.com/th/id/OIP.tT6a3_OHZk04dvNTxWHJvQHaHa?w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=2&pid=3.1&rm=2" alt="a tick icon"></image>
+        <h1 class="titles">Quality Guarantee</h1>
+        <p class="p-with-icon">All our products come with our Craftsman Guarantee, this ensures the highest of quality with absolutely 0 faults or damages, this also includes a <strong>free</strong> 1 year warranty.</p>
+        <img class="p-with-icon-img3" src="https://static.vecteezy.com/system/resources/previews/002/206/240/original/fast-delivery-icon-free-vector.jpg" alt="fast delivery icon"></image>
+        <h1 class="titles">Fast Delivery</h1>
+        <p class="p-with-icon">Due to all our products being made to order it may take <em>slightly</em> longer than ordinary services, but we promise you will be waiting at the <strong>most</strong> 2 weeks from placing the order to enjoying your product.
+    </div>
+
+    
+    <div id="Examples">
+      <h1 class="titles">Examples</h1>
+      <p class="info">Some of our previous work shown here</p>
+      <video id="video" alt="some examples" src="https://www.bing.com/videos/riverview/relatedvideo?q=wooden+furniture+showcase+&&mid=0714A0EBC90FA2B8C26E0714A0EBC90FA2B8C26E&mcid=9ECC28826D4B4759900BB9203E1F667B&FORM=VCGVRP" controls autoplay></video>
+      <p class="info">Please note that some of the products shown in this video may not appear on our list of currently available items, don't worry! We also take personal requests via email so don't be shy, let us know what crazy pieces you wanna see!
+    </div>
+    
+    <div id="Prices">
+      <div class="pricebox">
+        <h1 class="price-title">Swords and Shields</h1>
+        <p class="price-info">This package includes wooden swords, shields, daggers and bows.</p>
+        <div class="price-and-button">
+          <p>Starting from £50</p>
+          <button class="select-button">See More</button>
+        </div>
+      </div>
+      <div class="pricebox">
+        <h1 class="price-title">Outdoor Furniture</h1>
+        <p class="price-info">This package includes basic wooden chairs, tables and benches</p>
+        <div class="price-and-button">
+          <p>Starting from £200</p>
+          <button class="select-button">See More</button>
+        </div>
+      </div>
+      <div class="pricebox">
+        <h1 class="price-title">Indoor Artisan Furniture</h1>
+        <p class="price-info">This package includes dressers, beds, wardrobes and cabinets.</p>
+        <div class="price-and-button">
+          <p>Starting from £450</p>
+          <button class="select-button">See More</button>
+        </div>    
+      </div>
+    </div>
+
+    <div id="email-form">
+      <p class="email-bio">If you'd like to hear more about upcoming projects, sales and events then be sure to sign up for our newsletter here!</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <input id="email" name="email" type="email" placeholder="Please enter your email here..." />
+        <input id="submit" type="submit"/>
+      </form>
+    </div>
+  </body>
+
+  <footer id="footer">
+      <p class="footer-info"> 2025, Jack Allan<br><a class="footer-link" href="https://www.youtube.com/watch?v=IAD9hDMfrH8" target="_blank">freeCodeCamp</a></p>
+  </footer>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* { 
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+body {
+ background-color: linen;
+}
+
+#nav-bar {
+  display: flex;
+      justify-content: space-between; 
+      align-items: center; 
+      background-color: #fff;
+      padding: 10px 0px; 
+      position: fixed; 
+      top: 0;
+      width: 100%; 
+      z-index: 1000; 
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+      box-sizing: border-box;
+      border-radius: 5px;
+}
+#header-img {
+  height: 100px;
+  width: 100px;
+}
+
+#navbar-left {
+  display: flex;
+  font-size: 1.3rem;
+  letter-spacing: -2.5px;
+  position: relative;
+}
+
+#logo-text {
+  position: relative;
+  top: 5px;
+}
+
+#navbar-right {
+  word-spacing: 15px;
+  font-size: 1.3rem;
+  padding-right: 35px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #000;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+#Features {
+  position: relative;
+  top: 150px;
+  border: 1px solid #333;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.titles {
+  text-align: center;
+  font-weight: 750;
+  padding-top: 10px;
+}
+
+.p-with-icon {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+.p-with-icon-img1 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 30px;
+  left: 45%;
+}
+
+.p-with-icon-img2 {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 30px;
+  left: 45%;
+}
+
+.p-with-icon-img3 {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 30px;
+  left: 45%;
+}
+
+#Examples {
+  display: grid;
+  place-items: center;
+  max-width: 90%;
+  border: 1px solid #333;
+  width: 80%;
+  position: relative;
+  top: 200px;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info {
+  text-align: center;
+  padding: 0px 50px;
+  font-size: 1.1rem;
+}
+
+#video {
+ max-width: 90%;
+ width: 85%;
+}
+
+#Prices {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  max-width: 90%;
+  width: 80%;
+  position: relative;
+  top: 250px;
+  margin: auto;
+  ;
+}
+
+.pricebox {
+ width: 30%;
+ height: 100%;
+ border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+ background: linear-gradient(to bottom, #d3d3d3 18%, #fff 18%);
+ border: 1px solid #333;
+ 
+}
+
+.price-title {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+.price-info {
+  text-align: center;
+}
+
+.select-button {
+  border-radius: 5px;
+  color: #333;
+  cursor: pointer;
+}
+
+.select-button:hover {
+  color: black;
+  font-weight: 800;
+}
+
+.price-title {
+  width: 100%;
+  color: #333;
+  position: relative;
+  top: 0;  
+}
+
+.price-info {
+  color: #333;
+  text-align: center;
+  padding: 5px 15px;
+}
+.price-and-button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#email-form {
+  position: relative;
+  margin: auto;
+  top: 300px;
+  width: 40%;
+}
+
+#email {
+  width: 100%;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 5px;
+  color: #333
+}
+
+#submit:hover {
+  color: black;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+#footer {
+  display: flex;
+  position: relative;
+  top: 350px;
+  border: 1px solid #d3d3d3;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  color: #333;
+}
+
+.footer-info {
+  padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; 
+    line-height: 1.4;
+    padding: 10px;
+
+** end of undefined **
+
